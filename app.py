@@ -29,3 +29,6 @@ st.sidebar.markdown("""
 - Near Restaurent 
 - Locations                                       
 """)
+
+st.sidebar.selectbox('Select one',['Veg','Non-Veg'])
+st.sidebar.button('Select')
