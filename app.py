@@ -32,3 +32,5 @@ st.sidebar.markdown("""
 
 st.sidebar.selectbox('Select one',['Veg','Non-Veg'])
 st.sidebar.button('Select')
+
+st.title('Veg food lists')
