@@ -12,11 +12,17 @@ with col2:
     
 st.header("All Foods Catogery")
 st.subheader("Paneer")
-st.subheader("North indian")
 st.subheader("Burger & momos")
 st.subheader("Chinese")
 st.subheader("Rolls")
 st.subheader("Pizza")
-st.subheader("Madrasi")
 st.subheader("Paratha")
 st.subheader("Lassi")
+
+st.sidebar.title('Menu')
+st.sidebar.markdown("""
+- Home
+- About
+- Contact
+- log in                                         
+""")
