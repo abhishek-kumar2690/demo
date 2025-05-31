@@ -24,5 +24,8 @@ st.sidebar.markdown("""
 - Home
 - About
 - Contact
-- log in                                         
+- log in 
+- Careers
+- Near Restaurent 
+- Locations                                       
 """)
