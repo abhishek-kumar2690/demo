@@ -30,7 +30,8 @@ st.sidebar.markdown("""
 - Locations                                       
 """)
 
-st.sidebar.selectbox('Select one',['Veg','Non-Veg'])
-st.sidebar.button('Select')
+option = st.sidebar.selectbox('Select one',['Veg','Non-Veg'])
+btn = st.sidebar.button('Select')
 
-st.title('Veg food lists')
+if btn:
+    st.title(option + "food lists")
